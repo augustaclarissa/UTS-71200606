@@ -22,6 +22,9 @@ public class Enemy extends Actor{
     public getHealthPoint(){
         return healtPoint;
     }
+    
+    public setHealthPoint(){
+    }
 
     public int speed(){
 
@@ -30,4 +33,10 @@ public class Enemy extends Actor{
     public int moveSpeed(){
         return speed;
     }
+    
+    public getSpeed(){
+        return speed;
+    }
+    
+    public 
 }
