@@ -6,6 +6,10 @@ public class Enemy extends Actor{
     private void attack(Avatar){
 
     }
+    
+    public boolean Isboss{
+        return False;
+    }   
 
     private void hitTaken(int){
 
@@ -14,8 +18,16 @@ public class Enemy extends Actor{
     public int healthPoint(){
 
     }
+    
+    public getHealthPoint(){
+        return healtPoint;
+    }
 
     public int speed(){
 
+    }
+    
+    public int moveSpeed(){
+        return speed;
     }
 }
